@@ -17,6 +17,10 @@
       font-family: 'Montserrat', sans-serif;
     }
 
+    footer {
+      color: #999999;
+    }
+
 
 
     /* CUSTOMIZE THE NAVBAR
@@ -104,7 +108,7 @@
       position: static;
       max-width: 550px;
       padding: 20px 20px;
-      margin-top: 140px;
+      margin-top: 100px;
       opacity:0.9;
       filter:alpha(opacity=90); /* For IE8 and earlier */
     }
@@ -126,9 +130,8 @@
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
-    /* Center align the text within the three columns below the carousel */
-    .marketing .span4 {
-      text-align: center;
+    .marketing  {
+      margin-top: 50px;
     }
     .marketing h2 {
       font-weight: normal;
@@ -136,6 +139,34 @@
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
+    }
+
+
+    /* About
+    ------------------------- */
+
+    #about {
+      margin-top: 0px;
+    }
+
+
+    /* What's Covered
+    ------------------------- */
+
+    #covered {
+      margin-top: 100px;
+    }
+
+    #covered .row-fluid {
+      margin-top: 100px;
+    }
+
+
+    /* Registration
+    ------------------------- */
+
+    #register {
+      margin-top: 100px;
     }
 
 
