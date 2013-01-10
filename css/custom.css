@@ -21,8 +21,8 @@
       color: #999999;
     }
 
-    h1 {
-      margin-top: 2em;
+    .anchorfix {
+      padding-top: 50px;
     }
 
 
@@ -152,10 +152,7 @@
     /* What's Covered
     ------------------------- */
 
-    #covered {
-    }
-
-    #covered .row-fluid {
+    .whatscovered .row-fluid {
       margin-top: 100px;
     }
 
