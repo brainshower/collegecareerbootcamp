@@ -21,6 +21,9 @@
       color: #999999;
     }
 
+    h1 {
+      margin-top: 2em;
+    }
 
 
     /* CUSTOMIZE THE NAVBAR
@@ -40,6 +43,11 @@
       font-size: 23px;
       font-family: 'Alfa Slab One', cursive;
       color: white;
+      cursor: pointer;
+    }
+
+    .navbar a.brand {
+      cursor: pointer;
     }
 
     /* Navbar links: increase padding for taller navbar */
@@ -155,7 +163,15 @@
       text-decoration: underline;
     }
 
-    .whatscovered p {
+    .whatscovered p.lead {
+      color: #777777;
+    }
+
+    .whatscovered p.topicheader {
+      text-decoration: underline;
+    }
+
+    .whatscovered ul.topics {
       color: #777777;
     }
 
