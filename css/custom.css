@@ -26,20 +26,6 @@
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
-    }
-
     /* Remove border and change up box shadow for more contrast */
     .navbar .navbar-inner {
       border: 0;
@@ -68,7 +54,7 @@
 
 
 
-    /* CUSTOMIZE THE NAVBAR
+    /* CUSTOMIZE THE Carousel
     -------------------------------------------------- */
 
     /* Carousel base class */
@@ -131,14 +117,20 @@
     -------------------------------------------------- */
 
     .marketing  {
-      margin-top: 50px;
+      margin-top: 100px;
     }
+
     .marketing h2 {
       font-weight: normal;
     }
+
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
+    }
+
+    .marketing .brand {
+      font-family: 'Alfa Slab One', cursive;
     }
 
 
@@ -146,7 +138,6 @@
     ------------------------- */
 
     #about {
-      margin-top: 0px;
     }
 
 
@@ -154,11 +145,18 @@
     ------------------------- */
 
     #covered {
-      margin-top: 100px;
     }
 
     #covered .row-fluid {
       margin-top: 100px;
+    }
+
+    .whatscovered h2 {
+      text-decoration: underline;
+    }
+
+    .whatscovered p {
+      color: #777777;
     }
 
 
@@ -166,7 +164,10 @@
     ------------------------- */
 
     #register {
-      margin-top: 100px;
+    }
+
+    .eventbrite_container {
+      margin-top: 50px;
     }
 
 
