@@ -1,8 +1,6 @@
 /* Fonts included
              font-family: 'Alfa Slab One', cursive;
              font-family: 'Montserrat', sans-serif;
-             font-family: 'Archivo Black', sans-serif;
-             font-family: 'Raleway', sans-serif;
 */
 
 
@@ -82,7 +80,7 @@
       text-shadow: 0 1px 1px rgba(0,0,0,.4);
       background-color: transparent;
       border: 0;
-      color: #000000;
+      color: yellow;
     }
 
     .carousel .item {
