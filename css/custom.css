@@ -49,6 +49,14 @@
       color: black;
     }
 
+    dl {
+      margin-left: 20px;
+    }
+
+    dt {
+      margin-top: 10px;
+    }
+
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
