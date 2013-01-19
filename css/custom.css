@@ -72,7 +72,7 @@
     /* Downsize the brand/project name a bit */
     .navbar .brand {
       padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 23px;
+      font-size: 25px;
       font-family: 'Alfa Slab One', cursive;
       color: white;
       cursor: pointer;
@@ -213,7 +213,12 @@
       .navbar-fixed-top {
         margin-bottom: 0px;
       }
-
+      
+      .navbar-fixed-top .navbar-inner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+     
       .carousel .item {
         height: 500px;
       }
@@ -235,23 +240,17 @@
         font-size: 18px;
       }
 
-      .featurette {
-        height: auto;
-        padding: 0;
-      }
-
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        display: block;
-        float: none;
-        max-width: 40%;
-        margin: 0 auto 20px;
-      }
     }
+
 
 
     /* @media (max-width: 767px) { -- original */
     @media (max-width: 767px) {
+
+      .navbar-fixed-top .navbar-inner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
 
       .carousel {
         margin-left: -20px;
@@ -284,14 +283,6 @@
 
       .marketing .span4 + .span4 {
         margin-top: 40px;
-      }
-
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
       }
 
     }
