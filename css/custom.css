@@ -60,6 +60,10 @@
     .eventbrite_container {
      /* display: none; */
     }
+ 
+    #google_translate_element {
+      margin-top: 20px;
+    }
 
     /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
