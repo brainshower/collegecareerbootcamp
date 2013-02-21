@@ -210,7 +210,19 @@
     }
 
 
+    /* Mailchimp stuff */
+    
+    #mc_embed_signup {
+      border: 1px solid #777;
+      padding: 10px;
+    }
+    
+    #mc-embedded-subscribe {
+      margin-top: 10px;      
+    }
 
+    
+    
     /* RESPONSIVE CSS
     -------------------------------------------------- */
 
